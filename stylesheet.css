@@ -34,9 +34,19 @@ h2 {
 .links {
     text-align: center;
     margin: 0 auto;
+    padding: 0 70px;
 }
 
-.video {
-    background-image: url("video.jpg");
-    background-size: 50px 70px;
+.links img {
+    padding: 0 70px;
+}
+
+.quiz:hover,
+.video:hover {
+    opacity: 0.2;
+}
+
+.video,
+.quiz {
+    opacity: 1;
 }
